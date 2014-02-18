@@ -1,0 +1,3 @@
+CMD PLS Player Listings/Info
+CMD YourPage My Page
+CMD PGDConnectSave Save to PGD Connect
