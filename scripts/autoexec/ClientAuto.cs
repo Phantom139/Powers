@@ -1,1 +1,0 @@
-exec("client/Core.cs");

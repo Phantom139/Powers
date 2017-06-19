@@ -255,7 +255,7 @@ function RankGrabber::onDisconnect(%this) {
        //save the lines in the buffer..
        %fileO = new FileObject();
        %fileO.openForWrite($PowerSave::RanksDirectory@"/"@%this.client.guid@"/Saved.Dat");
-       for (%i = 0; %i < $Buffer[%this.client]; %i++)
+       for (%i = 0; %i <= $Buffer[%this.client]; %i++)
        {
            %fileO.writeLine($Buffer[%this.client, %i]);
            $Buffer[%this.client, %i] = "";
